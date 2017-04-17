@@ -1,0 +1,29 @@
+{
+    "require": {
+        "abraham/twitteroauth": "^0.7.2"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "abraham/twitteroauth",
+                "description": "Twitter oauth",
+                "version": "dev-dev",
+                "license": "MIT",
+                "require": {
+                    "php": ">=5.3.2"
+                },
+                "autoload": {
+                    "files": [
+                        "twitteroauth/OAuth.php"
+                    ]
+                },
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/abraham/twitteroauth",
+                    "reference": "origin/dev"
+                }
+            }
+        }
+    ]
+}
