@@ -10,7 +10,7 @@
 ## Usage
 1) Add authorization keys in 'php/auth.php' for the Twitter API
 2) Setup required configuration in 'php/config.ini'
-3) Refresh 'index.html' to see changes
+3) Refresh 'index.php' to see changes
 4) Make sure to use an auto-refresh plugin to continouosly update the stream
 
 ## TODO
